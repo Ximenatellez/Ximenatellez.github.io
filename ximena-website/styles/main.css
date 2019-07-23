@@ -1,0 +1,20 @@
+/*main.css */
+
+body {
+	background: yellow; 
+font-family: 'Hind Siliguri', sans-serif;
+}
+
+h1 {
+	color:pink ;
+}
+
+ol {
+	font-weight:bold; color:orange;
+}
+
+a{
+	text-decoration: none; color:rgb(181, 89, 71);
+}
+#my_bar  { border-style: solid; border-radius: 15px; border-color:orange; background:pink; }
+#my_name { text-align:center; }

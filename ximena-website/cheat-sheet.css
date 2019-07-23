@@ -1,0 +1,19 @@
+/* cheat-sheet.css */
+
+/* body is a selector to the tag body to change the stylinh of body section on my html file  */
+body {
+	/* backgroud is a property to change the backgroud color of an element. Orange is the value of the property */
+background: orange; 
+/* we can use 140 color names https://www.w3schols.com/colors/colors_names.asp */;
+}
+/* heading is a class selector to add styling to several elements on my html file */
+.heading {
+	/* color property is to change the text color*/
+	color: darkblue ;
+}
+#my_paragraph {
+	/* id selector is to style one elemnt on html page*/ 
+	text-align: right;
+	text-decoration: underline;
+	font-weight: bold;
+	}
