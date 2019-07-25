@@ -1,7 +1,7 @@
 /*main.css */
 
 body {
-	background: yellow; 
+	background: beige; 
 }
 
 h1 {
@@ -20,6 +20,33 @@ a{
 
 .margin_borders {
 	border-style:dashed; 
-	border-color:black;
+	border-color:pink;
 	margin-top: 20px 40px 60px 80px;
+	padding: 20px;
 }
+#img-float{
+	float:left;
+	margin:30px;
+	width:450px;
+	}
+.p-class{
+margin:15px;
+padding:15px;
+	}
+#div-float {
+	overflow:auto;
+	border:solid 5px pink;
+
+}
+
+@media only screen and (max-width:600px)
+ { #img-float{
+float:none;
+	margin:30px;
+	width:300px;
+}
+#div-float {
+	overflow:auto;
+	border:solid 5px pink;
+	background:rgb(255, 214, 153);
+} }
